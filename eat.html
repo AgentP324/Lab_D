@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>小吃</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./_css/bootstrap.css">
+    <link rel="stylesheet" href="./newbox.css">
+    <link rel="icon" href="img/images.png">
+
+    <style>
+        .outside {
+            box-sizing: border-box;
+            margin: auto;
+            width: 75%;
+            /* border-width: 5px;
+            border-style: solid;
+            border-color: blue; */
+        }
+
+        /* div[class^="col"] {
+            border: 1px solid black;
+        } */
+        .col-3 img {
+            aspect-ratio: 2 / 1;
+            width: 250px;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .box1 {
+            text-align: center;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 20px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background-color:lightgreen;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 9px #999;
+        }
+
+        .button:hover {
+            background-color: #3e8e41
+        }
+
+        .button:active {
+            background-color: #3e8e41;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+        .hero-image {
+            /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/小吃封面.jpg");
+
+            /* Set a specific height */
+            height: 50%;
+
+            /* Position and center the image to scale nicely on all screens */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1>小吃推薦</h1>
+        </div>
+    </div>
+    <!-- 4份表格   -->
+    <div class="outside row">
+        <h3>小吃推薦</h3>
+        <div class="row box1">
+            <div class="col-3 ">
+                <a href="https://blaketravel.tw/blog/post/a-zhang-rou-yuan-202408" target="_blank">
+                    <img src="./img/阿璋肉圓.jpg"><br>阿璋肉圓
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="https://www.instagram.com/explore/locations/419138671/" target="_blank">
+                    <img src="./img/莊手工鮮肉湯包.jpg"><br>莊手工鮮肉湯包
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="https://www.a-zen.com.tw/" target="_blank">
+                    <img src="./img/阿振肉包.jpg"><br>阿振肉包
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="https://www.instagram.com/taiwan_dishes/" target="_blank">
+                    <img src="./img/芳月亭食堂.jpg"><br>芳月亭食堂
+            </div>
+            <div class="col-3">
+                <a href="https://www.da-yuan.com.tw/" target="_blank">
+                    <img src="./img/大元蔴糬.jpg"><br>大元蔴糬
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="https://www.facebook.com/p/%E7%8E%8B%E7%BD%94%E9%BA%B5%E7%B7%9A%E7%B3%8A-100063957466319/" target="_blank">
+                    <img src="./img/王罔麵線糊.jpg"><br>王罔麵線糊
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="https://www.facebook.com/LSGnoodles/?locale=zh_TW" target="_blank">
+                    <img src="./img/老士官擀麵.jpg"><br>老士官擀麵
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="https://www.facebook.com/p/%E9%80%A2%E7%94%B2%E4%B8%80%E5%BF%83%E7%B4%A0%E9%A3%9F%E8%87%AD%E8%B1%86%E8%85%90-100063616099022/?locale=zh_TW" target="_blank">
+                    <img src="./img/一心素食臭豆腐.jpg"><br>一心素食臭豆腐
+                </a>
+            </div>
+        </div>
+        <div class="row box1">
+            <div class="col-3 ">
+                <a href="https://www.instagram.com/explore/locations/240405529/" target="_blank">
+                    <img src="./img/玉瓏坊名產麻糬.jpg"><br>玉瓏坊名產麻糬
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="https://www.facebook.com/p/%E5%9B%9B%E4%BA%94%E7%95%AA%E9%A3%9F%E5%A0%82-100064166736331/?locale=zh_TW" target="_blank">
+                    <img src="./img/四五番食堂.jpg"><br>四五番食堂
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="https://www.facebook.com/lukangfoods/?locale=zh_TW" target="_blank">
+                    <img src="./img/源記粉粿冰.jpg"><br>源記粉粿冰
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="https://www.facebook.com/p/%E6%9D%B1%E8%8F%AF%E7%B4%A0%E9%A3%9F%E9%BA%B5%E8%8C%B6-100063931900433/?locale=zh_TW" target="_blank">
+                    <img src="./img/東華素食麵茶.jpg"><br>東華素食麵茶
+
+                </a>
+            </div>
+
+            <br><br><br><br><br><br><br><br><br><br><br><br>
+            <div class="ttop">
+                <a href="#" class="goTopBtn jq-goTop">
+                    <div id="abcd" class=" fas fa-arrow-alt-circle-up fa-3x"></div>
+                </a>
+            </div>
+            <div class="footer">
+                <a href="./主頁.html">
+                    <button class="button">GO BACK</button>
+                </a>
+            </div>
+            <script src="./_js/bootstrap.bundle.js"></script>
+            <script src="./test.js"></script>
+</body>
+
+</html>

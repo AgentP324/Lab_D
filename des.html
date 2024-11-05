@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>甜點</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./_css/bootstrap.css">
+    <link rel="stylesheet" href="./newbox.css">
+    <link rel="icon" href="img/images.png">
+
+    <style>
+        .outside {
+            box-sizing: border-box;
+            margin: auto;
+            width: 75%;
+            /* border-width: 5px;
+            border-style: solid;
+            border-color: blue; */
+        }
+
+        /* div[class^="col"] {
+            border: 1px solid black;
+        } */
+        .col-3 img {
+            aspect-ratio: 2 / 1;
+            width: 250px;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .box1 {
+            text-align: center;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 20px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background-color:lightgreen;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 9px #999;
+        }
+
+        .button:hover {
+            background-color: #3e8e41
+        }
+
+        .button:active {
+            background-color: #3e8e41;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+        .hero-image {
+            /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/甜點封面1.jpg");
+
+            /* Set a specific height */
+            height: 50%;
+
+            /* Position and center the image to scale nicely on all screens */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1>甜點推薦</h1>
+        </div>
+    </div>
+    <!-- 4份表格   -->
+    <div class="outside row">
+        <h3>冰品推薦</h3>
+        <div class="row box1">
+            <div class="col-3 ">
+                <a href="https://www.facebook.com/p/%E5%BD%B0%E5%8C%96%E6%9C%A8%E7%93%9C%E7%89%9B%E4%B9%B3%E5%A4%A7%E7%8E%8B%E5%89%B5%E5%A7%8B%E5%BA%97-100063974415236/" target="_blank">
+                    <img src="./img/彰化木瓜牛乳大王.jpg"><br>彰化木瓜牛乳大王
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="https://www.facebook.com/photo.php?fbid=1408509389168937&id=321554154531138&set=a.1408509409168935&locale=zh_TW" target="_blank">
+                    <img src="./img/大都會冰城.jpg"><br>大都會冰城
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="https://blog.cutebox.org/%E5%BD%B0%E5%8C%96%E5%8D%A1%E9%87%8C%E5%96%84%E4%B9%8B%E6%A8%B9%E5%BD%A9%E8%99%B9%E5%B1%8B" target="_blank">
+                    <img src="./img/彩虹屋.jpg"><br>彩虹屋
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="https://m.facebook.com/p/%E6%95%B2%E6%95%B2%E9%9B%AA-61559039937678/" target="_blank">
+                    <img src="./img/敲敲雪冰舖.jpg"><br>敲敲雪冰舖
+            </div>
+            <div class="col-3">
+                <a href="https://www.instagram.com/homama1975/" target="_blank">
+                    <img src="./img/東海何媽媽冰店.jpg"><br>東海何媽媽冰店
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="https://www.facebook.com/fengchia.ice.cream.shop/" target="_blank">
+                    <img src="./img/敲敲雪冰舖.jpg"><br>逢甲冰菓室
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="https://www.facebook.com/p/%E5%8F%A4%E6%97%A9%E5%91%B3%E6%89%8B%E5%B7%A5%E7%82%92%E7%B3%96%E5%89%89%E5%86%B0-100063608996021/" target="_blank">
+                    <img src="./img/古早味手工炒糖剉冰.jpg"><br>古早味手工炒糖剉冰
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="https://m.facebook.com/jay22797145/" target="_blank">
+                    <img src="./img/大坑丁香豆花臉盆冰.jpg"><br>大坑丁香豆花臉盆冰
+                </a>
+            </div>
+        </div>
+        <h3>伴手禮推薦</h3>
+        <div class="row box1">
+            <div class="col-3 ">
+                <a href="https://oneonlybakery.com/" target="_blank">
+                    <img src="./img/不二坊.jpg"><br>不二坊
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="https://www.baked-cake.com.tw/" target="_blank">
+                    <img src="./img/蓁古早味現烤蛋糕.jpg"><br>蓁古早味現烤蛋糕
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="https://www.1877.com.tw/" target="_blank">
+                    <img src="./img/玉珍齋.jpg"><br>玉珍齋
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="https://www.lls.com.tw/" target="_blank">
+                    <img src="./img/老龍師肉包.jpg"><br>老龍師肉包
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="https://www.bearbakery.net/" target="_blank">
+                    <img src="./img/小熊菓子.jpg"><br>小熊菓子
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="https://www.instagram.com/explore/locations/1034541221/-/" target="_blank">
+                    <img src="./img/銘人堂手工麻糬.jpg"><br>銘人堂手工麻糬
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="https://www.trueroll.com.tw/" target="_blank">
+                    <img src="./img/實心蛋捲.jpg"><br>實心蛋捲
+                </a>z
+            </div>
+            <div class="col-3">
+                <a href="https://www.instagram.com/explore/locations/268683998/" target="_blank">
+                    <img src="./img/坂神本舖長崎蛋糕.jpg"><br>坂神本舖長崎蛋糕
+                </a>
+            </div>
+
+            <br><br><br><br><br><br><br><br><br><br><br><br>
+            <div class="ttop">
+                <a href="#" class="goTopBtn jq-goTop">
+                    <div id="abcd" class=" fas fa-arrow-alt-circle-up fa-3x"></div>
+                </a>
+            </div>
+            <div class="footer">
+                <a href="./主頁.html">
+                    <button class="button">GO BACK</button>
+                </a>
+            </div>
+            <script src="./_js/bootstrap.bundle.js"></script>
+            <script src="./test.js"></script>
+</body>
+
+</html>
